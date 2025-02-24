@@ -1,0 +1,21 @@
+﻿body {
+    background-color: lightblue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: navy;
+}
+
+#animatedDiv {
+    position: absolute;
+    top: 100px;
+    left: -100px;
+    transition: left 1s;
+}
